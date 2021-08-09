@@ -1,0 +1,51 @@
+.hero-wrap {
+    display: flex;
+    height: 400px;
+    margin: 20px 230px;
+    gap: 10px;
+    color: #FFF;
+    .poster-big {
+        width: 65%;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        .hero-text-big {
+            position: absolute;
+            bottom: 80px;
+            left: 70px;
+            .main-text {
+                font-size: 28px;
+            }
+            .category-date {
+                margin-top: 10px;
+                color: #a3a3a3;
+                font-size: 18px;
+            }
+        }
+    }
+    .poster-wrap {
+        width: 35%;
+        .mini-poster {
+            height: 195px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 5px;
+            .hero-text-two {
+                position: absolute;
+                bottom: 20px;
+                left: 10px;
+                .main-text-mini {
+                    font-size: 28px;
+                }
+                .category-date-mini {
+                    margin-top: 10px;
+                    color: #a3a3a3;
+                    font-size: 18px;
+                }
+            }
+        }
+        .mini-poster:last-child {
+            margin-top: 10px;
+        }
+    }
+}
