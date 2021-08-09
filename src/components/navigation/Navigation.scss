@@ -1,0 +1,40 @@
+.nav-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // Brand styles
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        .brand-name {
+            font-size: 50px;
+            font-weight: 900;
+            margin-left: 8px;
+        }
+        .vertical {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight: bold;
+            font-size: 32px;
+        }
+    }
+    // Navigation styles
+    .nav-items-wrap {
+        margin-top: 40px;
+        width: 75%;
+        .nav-items {
+            display: flex;
+            justify-content: space-around;
+            .nav-item {
+                text-decoration: none;
+                color: #000;
+                font-size: 23px;
+            }
+        }
+        .nav-hr {
+            margin-top: 25px;
+        }
+    }
+}
+
