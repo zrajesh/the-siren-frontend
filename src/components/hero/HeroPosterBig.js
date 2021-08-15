@@ -1,10 +1,10 @@
 import React from 'react';
 
-const HeroPosterBig = () => {
+const HeroPosterBig = ({posterUrl}) => {
     return (
         <div 
              style={{backgroundImage: 
-                `url(https://images.unsplash.com/photo-1520057364200-6d620317dc95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80)`, 
+                `url(${posterUrl})`, 
                 backgroundRepeat: "no-repeat",
                 WebkitBackgroundSize: "cover"
             }}

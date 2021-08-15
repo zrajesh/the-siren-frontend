@@ -1,5 +1,6 @@
 // Imports
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Provider } from "react-redux";
 // Import components
 import Navigation from "./components/navigation/Navigation"
 import Hero from "./components/hero/Hero";
@@ -8,10 +9,12 @@ import Hollywood from "./components/blogPages/Hollywood";
 import Technology from "./components/blogPages/Technology";
 import Fitness from "./components/blogPages/Fitness";
 import Food from "./components/blogPages/Food";
+// Import store
+import store from "./redux/store";
 
 const App = () => {
   return (
-    <div>
+    <Provider store={store}>
       <BrowserRouter>
         <Navigation />
           <Switch>
@@ -23,7 +26,7 @@ const App = () => {
             <Route exact path="/food" component={Food} />
           </Switch>
       </BrowserRouter>
-    </div>
+    </Provider>
   );
 }
 

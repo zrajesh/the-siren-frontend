@@ -1,19 +1,19 @@
 import React from 'react';
 
-const MenuBlogLeftCard = ({item, pageName}) => {
+const MenuBlogLeftCard = ({pageData, pageName}) => {
     return (
         <div className="blog-card-left">
             {
-                item === 1 ?
+                pageData.item === 1 ?
                 <div>
                     <h2>{pageName}</h2>
                     <hr className="bollywood-name-hr" /> 
                 </div> : null
             }
                 <div className="blog-card-item-left">
-                    <div className="blog-card-image-div">
+                    <div className="blog-card-image-div-left">
                         <img 
-                         src="https://images.pexels.com/photos/942573/pexels-photo-942573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                         src={pageData.imageUrl} 
                          alt="blogImage" 
                          className="blog-card-image"
                          />
@@ -21,19 +21,19 @@ const MenuBlogLeftCard = ({item, pageName}) => {
                     <div className="blog-card-text-left">
                     <p
                      className="blog-card-title"
-                    >Catch Waves with an adventure guide</p>
+                    >{pageData.title}</p>
                     <p
                      className="blog-card-para"
-                    >Gujurat is vastly underrated and is mistery to us why region isn't more well-
+                    >{pageData.shortPara}
                     </p>
-                    <p className="blog-card-category">Travel <span className="blog-card-span">/ August 21 2017</span></p>
+                    <p className="blog-card-category">{pageData.category} <span className="blog-card-span">{pageData.date}</span></p>
                     </div>
                 </div>
                 {
-                    item !== 5 ? <hr className="blog-card-hr" /> : null
+                    pageData.item !== 7 ? <hr className="blog-card-hr" /> : null
                 }
                 {
-                    item === 5 ? 
+                    pageData.item === 7 ? 
                     <p
                      style={{
                          marginTop: "35px", 

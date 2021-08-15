@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useSelector } from 'react-redux';
 // Import components
 import MenuBlog from '../menuBlog/MenuBlog';
 // Import css
 import "./Bollywood.scss";
 
 const Bollywood = () => {
-    const [test, setTaste] = useState([1, 2, 3, 4, 5,])
-    const [pageName, setPageName] = useState("Bollywood")
+    const pageName = useSelector(state => state.bollywoodLeft.pageName);
+    const pageLeftData = useSelector(state => state.bollywoodLeft.pageLeftData);
+    const pageRightData = useSelector(state => state.bollywoodRight.pageRightData);
     return (
         <div className="bollywood">  
-            {test.map(item => (
-                <MenuBlog key={item} item={item} pageName={pageName} />
-            ))}
+            <MenuBlog 
+             pageName={pageName}
+             pageLeftData={pageLeftData}
+             pageRightData={pageRightData}/>
         </div>
     );
 };
