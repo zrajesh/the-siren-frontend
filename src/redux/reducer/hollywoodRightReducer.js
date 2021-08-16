@@ -8,7 +8,11 @@ const INIT_STATE = {
             shortPara: "Scarlett Johansson filed a lawsuit-",
             category: "Hollywood",
             date: "/ August 16 2021",
-            item: 1
+            item: 1,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ELfZ-G_3dJg3UGQBg3OC0oh_tAczHlpVHA&usqp=CAU",
@@ -18,7 +22,11 @@ const INIT_STATE = {
             shortPara: "Avatar 2 also marketed as James Cameron's-",
             category: "Hollywood",
             date: "/ August 14 2021",
-            item: 2
+            item: 2,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://images.indianexpress.com/2021/08/tom-hardy-tom-holland-1200.jpg",
@@ -28,7 +36,11 @@ const INIT_STATE = {
             shortPara: "Sony owns the film and TV rights to Spider-Man-",
             category: "Hollywood",
             date: "/ August 17 2021",
-            item: 3
+            item: 3,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Doctor_Strange_in_the_Multiverse_of_Madness_logo.png/220px-Doctor_Strange_in_the_Multiverse_of_Madness_logo.png",
@@ -38,7 +50,11 @@ const INIT_STATE = {
             shortPara: "Doctor Strange in the Multiverse of Madness-",
             category: "Hollywood",
             date: "/ August 14 2021",
-            item: 4
+            item: 4,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         }
     ]
 }

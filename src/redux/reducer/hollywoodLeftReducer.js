@@ -9,7 +9,11 @@ const INIT_STATE = {
             shortPara: "Doctor Strange in the Multiverse of Madness-",
             category: "Hollywood",
             date: "/ August 14 2021",
-            item: 1
+            item: 1,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShe8yW5P0z-yfP2UcRKqU7h7dePk2jhoIsog&usqp=CAU",
@@ -19,7 +23,11 @@ const INIT_STATE = {
             shortPara: "Scarlett Johansson filed a lawsuit-",
             category: "Hollywood",
             date: "/ August 16 2021",
-            item: 2
+            item: 2,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://www.filmibeat.com/img/190x100x237/popcorn/movie_posters/venomlettherebecarnage-20200427162931-19298.jpg",
@@ -29,7 +37,11 @@ const INIT_STATE = {
             shortPara: "Venom: Let There Be Carnage aka Venom 2 is a-",
             category: "Hollywood",
             date: "/ August 14 2021",
-            item: 3
+            item: 3,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ELfZ-G_3dJg3UGQBg3OC0oh_tAczHlpVHA&usqp=CAU",
@@ -39,7 +51,11 @@ const INIT_STATE = {
             shortPara: "Avatar 2 also marketed as James Cameron's-",
             category: "Hollywood",
             date: "/ August 14 2021",
-            item: 4
+            item: 4,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://images.indianexpress.com/2021/08/tom-hardy-tom-holland-1200.jpg",
@@ -49,7 +65,11 @@ const INIT_STATE = {
             shortPara: "Sony owns the film and TV rights to Spider-Man-",
             category: "Hollywood",
             date: "/ August 17 2021",
-            item: 5
+            item: 5,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Godzilla_vs._Kong.png/220px-Godzilla_vs._Kong.png",
@@ -59,7 +79,11 @@ const INIT_STATE = {
             shortPara: "The project was announced in October 2015-",
             category: "Hollywood",
             date: "/ August 16 2021",
-            item: 6
+            item: 6,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         },
         {
             imageUrl: "https://www.filmibeat.com/img/190x100x237/popcorn/movie_posters/shang-chiandthelegendofthetenrings-20210420102018-20059.jpg",
@@ -69,7 +93,11 @@ const INIT_STATE = {
             shortPara: "Shang-Chi and the Legend of the Ten Rings-",
             category: "Hollywood",
             date: "/ August 16 2021",
-            item: 7
+            item: 7,
+            tagOne: "hoolywood",
+            tagTwo: "movie",
+            tagThree: "hollywood movie",
+            author: "Andrei"
         }
     ]
 }

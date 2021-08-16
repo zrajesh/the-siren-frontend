@@ -1,0 +1,108 @@
+.blog-content {
+    margin: 50px 200px;
+    display: flex;
+    gap: 100px;
+    .left-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 430px;
+        width: 40%;
+        // position: sticky;
+        .left-point {
+            cursor: pointer;
+            font-size: 30px;
+            color: #7a7a7a;
+        }
+    }
+    .right-grid {
+        .blog-title {
+            text-align: center;
+        }
+        .author {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            .author-brief {
+                display: flex;
+                gap: 10px;
+                .auhtor-point {
+                    cursor: pointer;
+                    font-size: 55px;
+                }
+                .author-date {
+                    color: #817d7d;
+                }
+            }
+            .social-handle {
+                display: flex;
+                gap: 10px;
+                .social-point {
+                    cursor: pointer;
+                    font-size: 25px;
+                    color: #aca0a0;
+                }
+            }
+        }   
+        .blog-description {
+            margin-top: 30px;
+            .blogImage-div {
+                margin-bottom: 80px;
+                .blogImage {
+                    width: 840px;
+                    height: 450px;
+                    margin: auto;
+                    display: block;
+                }
+            }
+            .desc-para {
+                font-size: 23px;
+                margin-bottom: 50px;
+            }
+        }
+        .blog-tags {
+            display: flex;
+            gap: 10px;
+            .tag {
+                border: 1px solid #b3adad;
+                padding: 10px 20px;
+                background-color: #b3adad;
+                color: #4e4b4b;
+            }
+        }
+        .blog-clap {
+            .blog-point {
+                cursor: pointer;
+                font-size: 40px;
+                color: #7a7a7a;
+                margin-top: 20px;
+            }
+        }
+        .author-hr-1 {
+            margin: 30px 0;
+        }
+        .author-hr {
+            margin: 20px 0;
+        }
+        .blog-author {
+            display: flex;
+            gap: 30px;
+            margin-top: 10px;
+            .blog-author-image {
+                .blog-auhtor-point {
+                    font-size: 70px;
+                    cursor: pointer;
+                }
+            }
+            .blog-author-text {
+                .blog-shadow {
+                    color: #817d7d;
+                }
+                .author-name {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+

@@ -8,7 +8,11 @@ const INIT_STATE = {
             shortPara: "Emerging therapeutic strategies for type 1 diabetes aim-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://www.verywellfit.com/thmb/howjCs-SuvB1xe8PS-SbZXy275o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/515777613-56a2b72f3df78cf772791a91.jpg",
@@ -18,7 +22,11 @@ const INIT_STATE = {
             shortPara: "If you feel like any extra calories you eat-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/1*1xzfubZdDeT9zladtBdzWA.png",
@@ -28,7 +36,11 @@ const INIT_STATE = {
             shortPara: "You read that correctly. No words are missing.",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/2000/0*RfhsQOE4VFDCs6Rx",
@@ -38,7 +50,11 @@ const INIT_STATE = {
             shortPara: "Move your body to calm your mind-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
     ]
 }

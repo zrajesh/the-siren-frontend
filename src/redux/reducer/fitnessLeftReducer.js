@@ -19,7 +19,11 @@ const INIT_STATE = {
             shortPara: "Building cases for stretching, generic movement, and sport-specific tasks",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/2000/0*RfhsQOE4VFDCs6Rx",
@@ -29,7 +33,11 @@ const INIT_STATE = {
             shortPara: "Move your body to calm your mind-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/0*GAdEQbheKGqpTebq",
@@ -39,7 +47,11 @@ const INIT_STATE = {
             shortPara: "Tracking weight isn’t the only way to track fitness-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/0*OPGa3hNO_d2CHtLT.jpg",
@@ -49,7 +61,11 @@ const INIT_STATE = {
             shortPara: "Emerging therapeutic strategies for type 1 diabetes aim-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 5
+            item: 5,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://miro.medium.com/max/1000/0*fTOp1kP63ic8JPxP",
@@ -59,7 +75,11 @@ const INIT_STATE = {
             shortPara: "Being aware of them will help you stay in-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 6
+            item: 6,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
         {
             imageUrl: "https://www.verywellfit.com/thmb/howjCs-SuvB1xe8PS-SbZXy275o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/515777613-56a2b72f3df78cf772791a91.jpg",
@@ -69,7 +89,11 @@ const INIT_STATE = {
             shortPara: "If you feel like any extra calories you eat-",
             category: "Fitness",
             date: "/ August 12 2021",
-            item: 7
+            item: 7,
+            tagOne: "workout",
+            tagTwo: "exercise",
+            tagThree: "muscle",
+            author: "Ritwik"
         },
     ]
 }

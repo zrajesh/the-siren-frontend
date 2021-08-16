@@ -8,7 +8,11 @@ const INIT_STATE = {
             shortPara: "Salman Khan took to Twitter to share a picture with-",
             category: "Bollywood",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "Movie",
+            tagTwo: "Bollywood",
+            tagThree: "India",
+            author: "Rahul"
         },
         {
             imageUrl: "https://c.ndtvimg.com/2021-08/khq642qo_bhuj-the-pride-of-india_625x300_14_August_21.jpg",
@@ -18,7 +22,11 @@ const INIT_STATE = {
             shortPara: "A sad apology for a war film-",
             category: "Bollywood",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "Movie",
+            tagTwo: "Bollywood",
+            tagThree: "India",
+            author: "Rahul"
         },
         {
             imageUrl: "https://images.firstpost.com/wp-content/uploads/2021/08/Akshay-Kumar-in-BellBottom.-YouTube.jpg?impolicy=website&width=640&height=363",
@@ -28,7 +36,11 @@ const INIT_STATE = {
             shortPara: "Akshay Kumar and Vashu Bhagnani to reunite after BellBottom",
             category: "Bollywood",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "Movie",
+            tagTwo: "Bollywood",
+            tagThree: "India",
+            author: "Rahul"
         },
         {
             imageUrl: "https://images.hindustantimes.com/img/2021/08/12/550x309/Sidharth_Malhotra_1628761028123_1628761031451.jpg",
@@ -38,7 +50,11 @@ const INIT_STATE = {
             shortPara: "Sidharth Malhotra portrayed the role of Captain Vikram Batra-",
             category: "Bollywood",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "Movie",
+            tagTwo: "Bollywood",
+            tagThree: "India",
+            author: "Rahul"
         }
     ]
 }

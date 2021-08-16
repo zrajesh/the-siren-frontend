@@ -8,7 +8,11 @@ const INIT_STATE = {
             shortPara: "Italian Wedding Cookies are delicious, butter-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/1*tCh-4Id8OoRmcO_0sGEUSg.jpeg",
@@ -18,7 +22,11 @@ const INIT_STATE = {
             shortPara: "Uncovering the layers of the gluten-free-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://c.ndtvimg.com/2020-04/6vslovro_kebab_625x300_15_April_20.jpg",
@@ -28,7 +36,11 @@ const INIT_STATE = {
             shortPara: "Best Vegetarian Kebabs:No Indian-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://c.ndtvimg.com/2021-05/ehgm234_fibre_625x300_09_May_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
@@ -38,7 +50,11 @@ const INIT_STATE = {
             shortPara: "Including fibre-rich food in your-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
     ]
 }

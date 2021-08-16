@@ -9,7 +9,11 @@ const INIT_STATE = {
             shortPara: "JavaScript is the programming language-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/1400/1*n-UZ42vYMZn-nw62ATR7lg.jpeg",
@@ -19,7 +23,11 @@ const INIT_STATE = {
             shortPara: "With modern web development, we use require",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/1*Ej8WJLvjwuFntD9Kkc14jg.jpeg",
@@ -29,7 +37,11 @@ const INIT_STATE = {
             shortPara: "A dive into JavaScript’s powerful tool-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/8880/1*0OL08Z0XE7lqqQxVybL1Yg.png",
@@ -39,7 +51,11 @@ const INIT_STATE = {
             shortPara: "Why React is the Top UI Framework in the World?",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/2048/1*gF8oCkYNvktBbAAG-nxYrg.jpeg",
@@ -49,7 +65,11 @@ const INIT_STATE = {
             shortPara: "Pure functions are essential for a variety of-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 5
+            item: 5,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJCa5aq864r51TVbwyc6-oE4Ltmud9wwSoog&usqp=CAU",
@@ -59,7 +79,11 @@ const INIT_STATE = {
             shortPara: "Hooks are a new addition in React 16.8.-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 6
+            item: 6,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/3200/1*i8-u-V8LTTbQwTeUwLI_BQ.gif",
@@ -69,7 +93,11 @@ const INIT_STATE = {
             shortPara: "This post covers some basic concepts-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 7
+            item: 7,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         }
     ]
 }

@@ -2,8 +2,6 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 // Import components
 import MenuBlog from '../menuBlog/MenuBlog';
-// Import css
-import "./Bollywood.scss";
 
 const Bollywood = () => {
     const pageName = useSelector(state => state.bollywoodLeft.pageName);

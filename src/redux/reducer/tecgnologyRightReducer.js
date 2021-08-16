@@ -2,13 +2,17 @@ const INIT_STATE = {
     pageRightData: [
         {
             imageUrl: "https://miro.medium.com/max/700/1*Ej8WJLvjwuFntD9Kkc14jg.jpeg",
-            title: "How to Use Async/Await in JavaScript",
+            title: "How to Use Async Await in JavaScript",
             paraOne: "Understanding how to handle asynchronous code for the first time can be a bit daunting. Luckily I’m here to explain how it all works so that you can be better prepared when situations like this arise.",
             paraTwo: "Asynchronous is defined as two or more events that occur at different times. We can understand this a bit better by taking a look at the example below:",
             shortPara: "A dive into JavaScript’s powerful tool-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/3200/1*i8-u-V8LTTbQwTeUwLI_BQ.gif",
@@ -18,7 +22,11 @@ const INIT_STATE = {
             shortPara: "This post covers some basic concepts-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/8880/1*0OL08Z0XE7lqqQxVybL1Yg.png",
@@ -28,7 +36,11 @@ const INIT_STATE = {
             shortPara: "Why React is the Top UI Framework in the World?",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         },
         {
             imageUrl: "https://miro.medium.com/max/2048/1*gF8oCkYNvktBbAAG-nxYrg.jpeg",
@@ -38,7 +50,11 @@ const INIT_STATE = {
             shortPara: "Pure functions are essential for a variety of-",
             category: "Technology",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "web development",
+            tagTwo: "frontend",
+            tagThree: "backend",
+            author: "Hitesh"
         }
     ]
 }

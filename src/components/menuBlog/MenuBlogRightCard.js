@@ -1,8 +1,20 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+// Import components
+import { blogContentAction } from '../../redux/reducer/blogContentAction';
 
-const MenuBlogRightCard = ({pageData}) => {
+const MenuBlogRightCard = ({pageData, history}) => {
+    const dispatch = useDispatch();
     return (
-        <div className="blog-card-right">
+        <div
+         onClick={
+            () => {
+                dispatch(blogContentAction(pageData));
+                history.push(`${history.location.pathname}/${pageData.title}`);
+            }
+            }
+         className="blog-card-right">
             {
                 pageData.item === 1 ?
                 <div>
@@ -52,4 +64,4 @@ const MenuBlogRightCard = ({pageData}) => {
     );
 };
 
-export default MenuBlogRightCard;
+export default withRouter(MenuBlogRightCard);

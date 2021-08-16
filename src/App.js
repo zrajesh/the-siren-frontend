@@ -9,6 +9,7 @@ import Hollywood from "./components/blogPages/Hollywood";
 import Technology from "./components/blogPages/Technology";
 import Fitness from "./components/blogPages/Fitness";
 import Food from "./components/blogPages/Food";
+import BlogContent from "./components/blogContent/BlogContent";
 // Import store
 import store from "./redux/store";
 
@@ -20,10 +21,15 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Hero} />
             <Route exact path="/bollywood" component={Bollywood} />
+            <Route exact path="/bollywood/:blogTopic" component={BlogContent} />
             <Route exact path="/hollywood" component={Hollywood} />
+            <Route exact path="/hollywood/:blogTopic" component={BlogContent} />
             <Route exact path="/technology" component={Technology} />
+            <Route exact path="/technology/:blogTopic" component={BlogContent} />
             <Route exact path="/fitness" component={Fitness} />
+            <Route exact path="/fitness/:blogTopic" component={BlogContent} />
             <Route exact path="/food" component={Food} />
+            <Route exact path="/food/:blogTopic" component={BlogContent} />
           </Switch>
       </BrowserRouter>
     </Provider>

@@ -9,7 +9,11 @@ const INIT_STATE = {
             shortPara: "Best Vegetarian Kebabs:No Indian-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 1
+            item: 1,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://c.ndtvimg.com/2021-05/ehgm234_fibre_625x300_09_May_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
@@ -19,7 +23,11 @@ const INIT_STATE = {
             shortPara: "Including fibre-rich food in your-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 2
+            item: 2,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://c.ndtvimg.com/2021-07/td8kerto_salad_625x300_22_July_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
@@ -29,7 +37,11 @@ const INIT_STATE = {
             shortPara: "Weight loss salad: Make this yummy-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 3
+            item: 3,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://www.healthywomen.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xOTE1NjczOS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4NTQ5OTA5OX0.ASTmZhOR6H9bpvlJhJaML4UDPr9nxUlgdkcA7GY00DE/image.jpg?width=980&quality=85",
@@ -39,7 +51,11 @@ const INIT_STATE = {
             shortPara: "Fruits are nutritious and good for you-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 4
+            item: 4,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://miro.medium.com/max/1280/1*vR-wmVCOeeTYnt9CEWEqBw.jpeg",
@@ -49,7 +65,11 @@ const INIT_STATE = {
             shortPara: "Italian Wedding Cookies are delicious, butter-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 5
+            item: 5,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://miro.medium.com/max/1920/1*WbSheDUC2R5qiXWHenkHcA.jpeg",
@@ -59,7 +79,11 @@ const INIT_STATE = {
             shortPara: "From milk tea to kombucha, Conrad-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 6
+            item: 6,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         },
         {
             imageUrl: "https://miro.medium.com/max/700/1*tCh-4Id8OoRmcO_0sGEUSg.jpeg",
@@ -69,7 +93,11 @@ const INIT_STATE = {
             shortPara: "Uncovering the layers of the gluten-free-",
             category: "Food",
             date: "/ August 12 2021",
-            item: 7
+            item: 7,
+            tagOne: "healthy",
+            tagTwo: "food",
+            tagThree: "taste",
+            author: "Sneha"
         }
     ]
 }
