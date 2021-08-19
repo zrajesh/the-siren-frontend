@@ -12,6 +12,7 @@ import technologyLeftReducer from "./reducer/technologyLeftReducer";
 import fitnessRightReducer from "./reducer/fitnessRightReducer";
 import fitnessLeftReducer from "./reducer/fitnessLeftReducer";
 import blogContentReducer from "./reducer/blogContentReducer";
+import suggestionReducer from "./reducer/suggesstionReducer";
 
 export default combineReducers({
     hero: heroReducer,
@@ -25,5 +26,6 @@ export default combineReducers({
     foodLeft: foodLeftReducer,
     fitnessRight: fitnessRightReducer,
     fitnessLeft: fitnessLeftReducer,
-    blogContent: blogContentReducer
+    blogContent: blogContentReducer,
+    suggesstion: suggestionReducer
 });

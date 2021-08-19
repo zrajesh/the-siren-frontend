@@ -1,11 +1,15 @@
 import React from 'react';
-
+import { useDispatch } from 'react-redux';
+// Import components
+import { suggestionAction } from '../../redux/reducer/suggesstionAction';
 // Import css
 import "./MenuBlog.scss";
 import MenuBlogLeftCard from './MenuBlogLeftCard';
 import MenuBlogRightCard from './MenuBlogRightCard';
 
 const MenuBlog = ({pageLeftData, pageRightData, pageName}) => {
+    const dispatch = useDispatch();
+    dispatch(suggestionAction(pageLeftData));
     return (
         <div className="blog-menu">
             <div>

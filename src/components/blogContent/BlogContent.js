@@ -1,11 +1,15 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+// Import components
+import BlogFeature from '../features/BlogFeature';
 // Import scss
 import "./BlogContent.scss";
 
 const BlogContent = () => {
     const content = useSelector(state => state.blogContent.content);
+    const suggesst = useSelector(state => state.suggesstion.suggesst);
     return (
+        <div>
         <div className="blog-content">
             <div className="left-grid">
             <i className="left-point far fa-heart"> Likes</i>
@@ -58,6 +62,8 @@ const BlogContent = () => {
                 </div>
                 <hr className="author-hr" />
             </div>
+        </div>
+            <BlogFeature suggesst={suggesst} />
         </div>
     );
 };

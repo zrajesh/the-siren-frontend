@@ -1,14 +1,20 @@
 let INIT_STATE = {
-    posterBig: "https://images.unsplash.com/photo-1520057364200-6d620317dc95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80",
+    posterBig: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Doctor_Strange_in_the_Multiverse_of_Madness_logo.png/220px-Doctor_Strange_in_the_Multiverse_of_Madness_logo.png",
     posterTwo: [
         {
-            imageUrl: "https://images.unsplash.com/photo-1520057364200-6d620317dc95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80",
-            id: "123456"
+            imageUrl: "https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+            id: "123456",
+            title: "Learn the web and build one for yourself",
+            category: "Technology",
+            date: " / August 22 2021"
             
         },
         {
-            imageUrl: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-            id: "654321"
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHB4NUTn78zwdqlVRJjeJf8D2VMR4hdFrLFQ&usqp=CAU",
+            id: "654321",
+            title: "Read and Eat Healthy",
+            category: "Food",
+            date: " / August 23 2021"
         }
     ]
 }

@@ -31,7 +31,7 @@ const INIT_STATE = {
         },
         {
             imageUrl: "https://miro.medium.com/max/700/1*Ej8WJLvjwuFntD9Kkc14jg.jpeg",
-            title: "How to Use Async/Await in JavaScript",
+            title: "How to Use Async Await in JavaScript",
             paraOne: "Understanding how to handle asynchronous code for the first time can be a bit daunting. Luckily I’m here to explain how it all works so that you can be better prepared when situations like this arise.",
             paraTwo: "Asynchronous is defined as two or more events that occur at different times. We can understand this a bit better by taking a look at the example below:",
             shortPara: "A dive into JavaScript’s powerful tool-",

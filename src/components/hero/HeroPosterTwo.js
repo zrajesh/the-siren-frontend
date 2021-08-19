@@ -1,11 +1,16 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 
-const HeroPosterTwo = ({posterUrl}) => {
+const HeroPosterTwo = ({posterUrl, history}) => {
     return (
-        <div className="poster-wrap">
+        <div
+         className="poster-wrap">
             {
                 posterUrl.map((url) => (
                     <div
+                     onClick={() => {
+                        history.push(`${url.category}`)
+                      }}
                       style={{backgroundImage: 
                         `url(${url.imageUrl})`, 
                         backgroundRepeat: "no-repeat",
@@ -15,8 +20,8 @@ const HeroPosterTwo = ({posterUrl}) => {
                        key={url.id}
                     >
                         <div className="hero-text-two">
-                            <p className="main-text-mini">The sound cloud<br /> You loved is doomed</p>
-                            <p className="category-date-mini">Travel / August 21 2017</p>
+                            <p className="main-text-mini">{url.title}</p>
+                            <p className="category-date-mini">{url.category}{url.date}</p>
                         </div>
                     </div>
                 ))
@@ -25,4 +30,4 @@ const HeroPosterTwo = ({posterUrl}) => {
     );
 };
 
-export default HeroPosterTwo;
+export default withRouter(HeroPosterTwo);
