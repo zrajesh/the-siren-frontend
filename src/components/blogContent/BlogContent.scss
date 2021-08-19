@@ -106,3 +106,43 @@
     }
 }
 
+// Responsive
+@media (max-width: 1300px) {
+    .blog-content {
+        margin: 60px 6%;
+    }
+}
+// Tab
+@media (max-width: 1150px) {
+    .blog-content {
+        margin: 60px 6%;
+        .right-grid {
+            .blog-description {
+                .blogImage-div {
+                    .blogImage {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+// Mobile
+@media (max-width: 800px) {
+    .blog-content {
+        margin: 60px 6%;
+        .left-grid {
+            display: none;
+        }
+        .right-grid {
+            .blog-description {
+                .blogImage-div {
+                    .blogImage {
+                        width: 60%;
+                        height: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -44,3 +44,45 @@
         }
     }
 }
+
+// Responsive
+@media (max-width: 1150px) {
+    .blog-feature {
+        .blog-margin {
+            .feature-cards {
+                flex-wrap: wrap;
+                .card {
+                    margin: 0 50%;
+                }
+            }
+        }
+    }
+}
+
+// Mobile
+@media (max-width: 800px) {
+    .blog-feature {
+        .blog-margin {
+            .feature-cards {
+                .card {
+                    .related {
+                        display: none;
+                    }
+                    .card-content-wrap {
+                        margin-left: -150px;
+                        .card-image {
+                            width: 150px;
+                            height: 150px;
+                        }
+                        .card-text h2 {
+                            width: 100%;
+                        }
+                        .card-author {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

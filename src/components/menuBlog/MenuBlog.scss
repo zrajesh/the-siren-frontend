@@ -105,4 +105,97 @@
     }
 }
 
+// Responsive
+@media (max-width: 1500px) {
+    .blog-menu {
+        margin: 70px 12%;
+        // Left card
+        .blog-card-left {
+            .blog-card-item-left {
+                .blog-card-text-left {
+                    .blog-card-title {
+                        width: 80%;
+                    }
+                    .blog-card-category {
+                        bottom: -25px;
+                    }
+                }
+            }
+            .blog-card-hr {
+                width: 100%;
+            }
+        }
+        // Right card
+        .blog-card-right {
+            margin-left: 20%;
+            .blog-card-item-right {
+                .blog-card-item-text-right {
+                    .blog-card-title-right {
+                        width: 80%;
+                    }
+                    .blog-number {
+                        right: -5%;
+                    }
+                }
+            }
+            .blog-card-hr-right {
+                width: 80%;
+            }
+            .blog-card-advertisement-right {
+                height: 580px;
+                width: 70%;
+            }
+        }
+    }
+}
 
+@media (max-width: 1400px) {
+    .blog-menu {
+        flex-direction: column;
+        .blog-card-right {
+            margin-left: 0;
+            margin-top: 50px;
+            .blog-card-item-text-right {
+                .blog-card-title-right {
+                    width: 100%;
+                }
+                .blog-number {
+                    left: 100%;
+                }
+            }
+            .blog-card-hr-right {
+                width: 100%;
+            }
+            .blog-card-advertisement-right {
+                display: none;
+            }
+        }
+    }
+}
+// Mobile responsive
+@media (max-width: 900px) {
+    .blog-menu {
+        .blog-card-left {
+            .blog-card-item-left {
+                flex-direction: column;
+                .blog-card-image-div-left {
+                    .blog-card-image {
+                        width: 300px;
+                        height: 200px;
+                    }
+                }
+                .blog-card-text-left {
+                    .blog-card-para {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .blog-card-right {
+            .blog-card-item-right {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

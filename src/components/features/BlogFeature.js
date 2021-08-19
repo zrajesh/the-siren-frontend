@@ -26,7 +26,7 @@ const BlogFeature = ({suggesst, history}) => {
                          key={index} 
                          className="card"
                         >
-                            <p>Related Search</p>
+                            <p className="related">Related Search</p>
                             <div className="card-content-wrap">
                                 <img
                                  className="card-image" 
