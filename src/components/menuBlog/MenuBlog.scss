@@ -152,6 +152,7 @@
 @media (max-width: 1400px) {
     .blog-menu {
         // flex-direction: column;
+        gap: 30px;
         .blog-card-right {
             margin-left: 0;
             margin-top: 50px;
@@ -165,9 +166,6 @@
             }
             .blog-card-hr-right {
                 width: 100%;
-            }
-            .blog-card-advertisement-right {
-                display: none;
             }
         }
     }
@@ -196,6 +194,9 @@
             .blog-card-item-right {
                 display: flex;
                 flex-direction: column;
+            }
+            .blog-card-advertisement-right {
+                display: none;
             }
         }
     }
