@@ -2,6 +2,9 @@
 
 A diverse blog website for posting various articles like Technology, Fitness, Food, Bollywood, Hollywood etc.
 
+## View Project Live: 
+
+https://the-siren.netlify.app/
 
 ## Features
 
