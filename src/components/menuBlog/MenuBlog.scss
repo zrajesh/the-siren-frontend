@@ -151,7 +151,7 @@
 
 @media (max-width: 1400px) {
     .blog-menu {
-        flex-direction: column;
+        // flex-direction: column;
         .blog-card-right {
             margin-left: 0;
             margin-top: 50px;
@@ -175,6 +175,7 @@
 // Mobile responsive
 @media (max-width: 900px) {
     .blog-menu {
+        flex-direction: column;
         .blog-card-left {
             .blog-card-item-left {
                 flex-direction: column;
