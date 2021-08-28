@@ -18,7 +18,7 @@ const MenuBlogRightCard = ({pageData, history}) => {
             {
                 pageData.item === 1 ?
                 <div>
-                    <h2>Top Posts</h2>
+                    <h2 style={{fontSize: "2.5rem"}}>Top Posts</h2>
                     <hr className="bollywood-top-hr" /> 
                 </div> : null
             }
@@ -29,12 +29,12 @@ const MenuBlogRightCard = ({pageData, history}) => {
                         <img
                          src={pageData.imageUrl}
                          alt="blogImage"
-                         style={{height: "250px", width: "350px"}}
+                         style={{height: "25rem", width: "35rem"}}
                         /> :
                         <img
                          src={pageData.imageUrl}
                          alt="blogImage"
-                         style={{height: "120px", width: "120px"}}
+                         style={{height: "12rem", width: "12rem"}}
                         />
                     }
                 </div>

@@ -18,7 +18,7 @@ const MenuBlogLeftCard = ({pageData, pageName, history}) => {
             {
                 pageData.item === 1 ?
                 <div>
-                    <h2>{pageName}</h2>
+                    <h2 style={{fontSize: "2.5rem"}}>{pageName}</h2>
                     <hr className="bollywood-name-hr" /> 
                 </div> : null
             }
@@ -47,18 +47,20 @@ const MenuBlogLeftCard = ({pageData, pageName, history}) => {
                 {
                     pageData.item === 7 ? 
                     <p
+                     className="mobile-top"
                      style={{
-                         marginTop: "35px", 
+                         marginTop: "3.5rem", 
                          cursor: "pointer",
                          color: "#868686",
-                         width: "120px"
+                         width: "12rem",
+                         fontSize: "1.6rem"
                         }}
                     ><i
                      className="fas fa-long-arrow-alt-down"
                      style={{
-                         marginRight: "10px", 
+                         marginRight: "1rem", 
                          color: "#d44c4c", 
-                         fontSize: "20px"
+                         fontSize: "2.5rem"
                         }}
                     ></i>LOAD MORE</p> : null
                 }

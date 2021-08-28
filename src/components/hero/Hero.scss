@@ -1,60 +1,60 @@
 .hero-wrap {
     display: flex;
-    height: 400px;
-    margin: 20px 15%;
-    gap: 10px;
+    height: 40rem;
+    margin: 2rem 15%;
+    gap: 1rem;
     .poster-big {
         width: 65%;
-        border-radius: 5px;
+        border-radius: 0.5rem;
         cursor: pointer;
         position: relative;
         .hero-text-big {
             position: absolute;
-            bottom: 80px;
-            left: 70px;
+            bottom: 8rem;
+            left: 7rem;
             .main-text {
-                font-size: 28px;
+                font-size: 2.8rem;
                 color: #FFF;
             }
             .category-date {
-                margin-top: 10px;
+                margin-top: 1rem;
                 color: #a3a3a3;
                 font-weight: bold;
-                font-size: 18px;
+                font-size: 1.8rem;
             }
         }
     }
     .poster-wrap {
         width: 35%;
         .mini-poster {
-            height: 195px;
+            height: 19.5rem;
             cursor: pointer;
             position: relative;
-            border-radius: 5px;
+            border-radius: 0.5rem;
             .hero-text-two {
                 position: absolute;
-                bottom: 20px;
-                left: 10px;
+                bottom: 2rem;
+                left: 1rem;
                 .main-text-mini {
-                    font-size: 28px;
+                    font-size: 2.8rem;
                     color: #FFF;
                 }
                 .category-date-mini {
-                    margin-top: 10px;
+                    margin-top: 1rem;
                     color: #FFF;
-                    font-size: 18px;
+                    font-size: 1.8rem;
                 }
             }
         }
         .mini-poster:last-child {
-            margin-top: 10px;
+            margin-top: 1rem;
         }
     }
 }
 
 // Responsive
 .carousel {
-    margin: 20px 0;
+    margin: 2rem 0;
     display: none;
 }
 @media (max-width: 950px) {

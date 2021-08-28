@@ -1,38 +1,40 @@
 .blog-menu {
-    margin: 70px 265px;
+    margin: 7rem 12%;
     display: flex;
     // Left Card
     .blog-card-left {
         .bollywood-name-hr {
-            width: 50px;
-            margin-left: 8px;
-            margin-top: 5px;
-            margin-bottom: 50px;
+            width: 5rem;
+            margin-left: 0.8rem;
+            margin-top: 0.5rem;
+            margin-bottom: 5rem;
             border: 1px solid #ff6600;
         }
         .blog-card-item-left {
             display: flex;
-            gap: 20px;
+            gap: 2rem;
             cursor: pointer;
             .blog-card-image-div-left {
                 .blog-card-image {
-                    width: 320px;
-                    height: 190px;
+                    width: 32rem;
+                    height: 19rem;
                 }
             }
             .blog-card-text-left {
                 position: relative;
                 .blog-card-title {
-                    font-size: 28px;
+                    font-size: 2.3rem;
                     font-weight: bold;
                 }
                 .blog-card-para {
-                    margin-top: 15px;
+                    margin-top: 1.5rem;
                     color: #494848;
+                    font-size: 1.6rem;
                 }
                 .blog-card-category {
                     position: absolute;
-                    bottom: -10px;
+                    bottom: -1rem;
+                    font-size: 1.6rem;
                 }
                 .blog-card-span {
                     color: #868686;
@@ -40,8 +42,8 @@
             }
         }
         .blog-card-hr {
-            margin-top: 50px;
-            margin-bottom: 30px;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
             width: 115%;
         }
     }
@@ -49,10 +51,10 @@
     .blog-card-right {
         margin-left: 40%;
         .bollywood-top-hr {
-            width: 57px;
-            margin-left: -2px;
-            margin-top: 5px;
-            margin-bottom: 50px;
+            width: 5.7rem;
+            margin-left: -0.2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 5rem;
             border: 1px solid #ff6600;
         }
         .blog-card-item-right {
@@ -62,44 +64,45 @@
                 position: relative;
                 .blog-card-title-right {
                     width: 130%;
-                    font-size: 28px;
+                    font-size: 2.3rem;
                     font-weight: bold;
-                    margin-top: 10px;
-                    margin-bottom: 15px;
+                    margin-top: 1rem;
+                    margin-bottom: 1.5rem;
                 }
                 .blog-card-category-right {
                     width: 120%;
-                    margin-bottom: 20px;
+                    margin-bottom: 2rem;
+                    font-size: 1.6rem;
                 }
                 .blog-card-span {
                     color: #868686;
                 }
                 .blog-number {
                     position: absolute;
-                    top: 40px;
-                    right: -140px;
-                    font-size: 60px;
+                    top: 4rem;
+                    right: -14rem;
+                    font-size: 6rem;
                     color: #b3adad;
                 }
             }
         }
         .blog-card-item-flex-right {
             display: flex;
-            gap: 15px;       
+            gap: 1.5rem;       
         }
         .blog-card-hr-right {
             width: 150%;
-            margin-top: 20px;
-            margin-bottom: 40px;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
         }
         .blog-card-advertisement-right {
             border: 3px solid #c0c0c0;
-            margin-top: 70px;
-            height: 580px;
+            margin-top: 7rem;
+            height: 58rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 28px;
+            font-size: 2.8rem;
             font-weight: bold;
         }
     }
@@ -108,7 +111,7 @@
 // Responsive
 @media (max-width: 1500px) {
     .blog-menu {
-        margin: 70px 12%;
+        margin: 7rem 12%;
         // Left card
         .blog-card-left {
             .blog-card-item-left {
@@ -117,9 +120,12 @@
                         width: 80%;
                     }
                     .blog-card-category {
-                        bottom: -45px;
+                        bottom: -4.5rem;
                     }
-                }
+                } 
+            }
+            .mobile-top {
+                padding-top: 3.5rem;
             }
             .blog-card-hr {
                 width: 100%;
@@ -142,7 +148,7 @@
                 width: 80%;
             }
             .blog-card-advertisement-right {
-                height: 580px;
+                height: 58rem;
                 width: 70%;
                 display: block;
             }
@@ -152,11 +158,10 @@
 
 @media (max-width: 1400px) {
     .blog-menu {
-        // flex-direction: column;
-        gap: 30px;
+        gap: 3rem;
         .blog-card-right {
             margin-left: 0;
-            margin-top: 50px;
+            margin-top: 5rem;
             .blog-card-item-text-right {
                 .blog-card-title-right {
                     width: 100%;
@@ -172,7 +177,7 @@
     }
 }
 // Mobile responsive
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .blog-menu {
         flex-direction: column;
         .blog-card-left {
@@ -180,8 +185,8 @@
                 flex-direction: column;
                 .blog-card-image-div-left {
                     .blog-card-image {
-                        width: 300px;
-                        height: 200px;
+                        width: 30rem;
+                        height: 20rem;
                     }
                 }
                 .blog-card-text-left {
