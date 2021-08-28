@@ -1,10 +1,11 @@
 .food-feature {
     display: flex;
-    gap: 100px;
-    margin: 60px 180px;
+    gap: 10rem;
+    margin: 6rem 18rem;
+    font-size: 1.8rem;
     .food-image {
-        height: 520px;
-        width: 820px;
+        height: 52rem;
+        width: 82rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -15,12 +16,12 @@
         }
     }
     .delicious-food {
-        margin-top: -250px;
+        margin-top: -25rem;
         .delicious-food-hr {
-            margin-top: 8px;
-            margin-bottom: 20px;
+            margin-top: 0.8rem;
+            margin-bottom: 2rem;
             border: 1px solid orangered;
-            width: 110px;
+            width: 11rem;
         }
         .delicious-contents {
             .top-down {
@@ -30,7 +31,7 @@
             }
             .sideways {
                 display: flex;
-                gap: 20px;
+                gap: 2rem;
                 cursor: pointer;
             }
             .delicous-text {
@@ -39,8 +40,8 @@
                 .text {
                     width: 90%;
                     .text-head {
-                        margin-top: 10px;
-                        margin-bottom: 20px;
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
                     }
                     .text-para {
                         position: absolute;
@@ -52,15 +53,15 @@
                 }
                 .number {
                     color: #817d7d;
-                    font-size: 48px;
+                    font-size: 4.8rem;
                     width: 10%;
                     position: absolute;
                     right: 0;
                 }
             }
             .food-hr {
-                margin: 20px;
-                margin-left: -2px;
+                margin: 2rem;
+                margin-left: -0.2rem;
             }
         }
     }
@@ -68,14 +69,14 @@
 // Responsive
 @media (max-width: 1300px) {
     .food-feature {
-        margin: 60px 6%;
+        margin: 6rem 6%;
     }
 }
 
 @media (max-width: 1150px) {
     .food-feature {
         flex-direction: column;
-        margin-top: 300px;
+        margin-top: 30rem;
         .food-image {
             display: none;
         }
@@ -89,7 +90,7 @@
                 .delicous-text {
                     .text {
                         .text-para {
-                            bottom: -20px;
+                            bottom: -2rem;
                         }
                     }
                 }
