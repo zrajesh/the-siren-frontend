@@ -12,22 +12,27 @@ const FoodFeature = ({history}) => {
     const dispatch = useDispatch();
     return (
         <div className="food-feature">
-            <div
-             className="food-image"
-             style={{
-                backgroundImage: `url(${pageData[0].imageUrl})`,
-                backgroundRepeat: "no-repeat",
-                WebkitBackgroundSize: "cover"
-            }}
-            onClick={() => {
-                dispatch(suggestionAction(pageData));
-                dispatch(blogContentAction(pageData[0]));
-                history.push(`/food/${pageData[0].title}`)
-            }}
-            >
-                <h2 className="bg-text">{pageData[0].title}</h2>
-                <p className="bg-text">{pageData[0].category}{ pageData[0].date}</p>
+        {
+            pageData.filter(data => data.item<2).map((data, index) => (
+                <div
+                key={index}
+                className="food-image"
+                style={{
+                    backgroundImage: `url(${data.imageUrl})`,
+                    backgroundRepeat: "no-repeat",
+                    WebkitBackgroundSize: "cover"
+                }}
+                onClick={() => {
+                    dispatch(suggestionAction(pageData));
+                    dispatch(blogContentAction(data));
+                    history.push(`/food/${data.title}`)
+                }}
+                >
+                <h2 className="bg-text">{data.title}</h2>
+                <p className="bg-text">{data.category}{ data.date}</p>
             </div>
+            ))
+        }
             <div className="delicious-food">
                 <h2>Delicious Food</h2>
                 <hr className="delicious-food-hr" />

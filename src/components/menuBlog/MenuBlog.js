@@ -7,7 +7,7 @@ import "./MenuBlog.scss";
 import MenuBlogLeftCard from './MenuBlogLeftCard';
 import MenuBlogRightCard from './MenuBlogRightCard';
 
-const MenuBlog = ({pageLeftData, pageRightData, pageName}) => {
+const MenuBlog = ({pageLeftData, pageName}) => {
     const dispatch = useDispatch();
     dispatch(suggestionAction(pageLeftData));
     return (
@@ -25,7 +25,7 @@ const MenuBlog = ({pageLeftData, pageRightData, pageName}) => {
             </div>
             <div>
             {
-                pageRightData.map(pageData => (
+                pageLeftData.filter(pageData => pageData.rank === "top").map(pageData => (
                     <MenuBlogRightCard
                      key={pageData.item}
                      pageData={pageData} 

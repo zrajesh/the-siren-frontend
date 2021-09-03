@@ -7,13 +7,12 @@ import MenuBlog from '../menuBlog/MenuBlog';
 const Fitness = () => {
     const pageName = useSelector(state => state.fitnessLeft.pageName);
     const pageLeftData = useSelector(state => state.fitnessLeft.pageLeftData);
-    const pageRightData = useSelector(state => state.fitnessRight.pageRightData);
     return (
         <div className="bollywood">  
             <MenuBlog 
              pageName={pageName}
              pageLeftData={pageLeftData}
-             pageRightData={pageRightData}/>
+            />
         </div>
     );
 };

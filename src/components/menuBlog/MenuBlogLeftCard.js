@@ -18,7 +18,7 @@ const MenuBlogLeftCard = ({pageData, pageName, history}) => {
             {
                 pageData.item === 1 ?
                 <div>
-                    <h2 style={{fontSize: "2.5rem"}}>{pageName}</h2>
+                    <h2 style={{fontSize: "2.5rem"}}>{pageData.category}</h2>
                     <hr className="bollywood-name-hr" /> 
                 </div> : null
             }

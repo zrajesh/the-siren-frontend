@@ -16,7 +16,7 @@ const MenuBlogRightCard = ({pageData, history}) => {
             }
          className="blog-card-right">
             {
-                pageData.item === 1 ?
+                pageData.item === 4 ?
                 <div>
                     <h2 style={{fontSize: "2.5rem"}}>Top Posts</h2>
                     <hr className="bollywood-top-hr" /> 
@@ -52,10 +52,10 @@ const MenuBlogRightCard = ({pageData, history}) => {
                     </div>
             </div>
                 {
-                    pageData.item !== 4 ? <hr className="blog-card-hr-right" /> : null
+                    pageData.item !== 7 ? <hr className="blog-card-hr-right" /> : null
                 }
                 {
-                    pageData.item ===4 ? 
+                    pageData.item ===7 ? 
                     <div className="blog-card-advertisement-right">
                         <p>Advertisement</p>
                     </div> : null
